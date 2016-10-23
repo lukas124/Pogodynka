@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.pogodynka.WeatherActivity">
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="1"
+        android:title="Home"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/change_city"
+        android:orderInCategory="1"
+        android:title="@string/change_city"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/temp"
+        android:orderInCategory="1"
+        android:title="@string/temp_chart"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/pressure"
+        android:orderInCategory="1"
+        android:title="Pressure graph"
+        app:showAsAction="never"/>
+</menu>
